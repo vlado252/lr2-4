@@ -1,10 +1,6 @@
-n = int(input("Введите количество школьников:"))
-k = int(input("Введите количество яблок: "))
-
-yabloki = k // n
-ostatok = k - yabloki*n
-
-
-print(yabloki)
-print ("По ", yabloki, "каждому школьнику.")
-print(ostatok, "яблок останется в корзине.")
+import math
+x = float(input("Введи значение x:"))
+y = float(input("Введи значение y:"))
+z = float(input("Введи значение z:"))
+w =pow(math.fabs(math.cos(x)-math.cos(y)), 1+2*pow(math.sin(y),2))*(1+z+((pow(z,2))/2)+((pow(z,3))/4)+((pow(z,4))/4))
+print("Результат = ",w)
